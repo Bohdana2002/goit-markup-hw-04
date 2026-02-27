@@ -113,7 +113,16 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-
+.features-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    background-color: #F4F4FD;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 .sec-back {
     background-color: #2E2F42;
     padding: 188px 0;
@@ -222,6 +231,26 @@ body {
 .portfolio-text {
     text-align: left;
 } 
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    transition-property: background-color;
+    transition-duration: 250ms;
+}
+
+.social-links:hover, .social-links:focus {
+    background-color: #404BBF;
+}
 .images-block {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
