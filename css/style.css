@@ -304,7 +304,7 @@ body {
 }
 .overlay {
     background-color: #4D5AE5;
-    color: #F4F4FD;
+    color: var(--footer-text-color);
     position: absolute;
     top: 0;
     left: 0;
@@ -318,7 +318,7 @@ body {
     font-size: 16px;
 }
 .image-wrapper:hover .overlay {
-    transform: translateY(0);
+    transform: translateY(0%);
 }
 .social-links:hover, .social-links:focus {
     background-color: #404BBF;
@@ -340,7 +340,8 @@ body {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-links-footer:hover {
+.social-links-footer:hover,
+.social-links:focus {
     background-color: #31d0aa;
 }
 .low-part {
